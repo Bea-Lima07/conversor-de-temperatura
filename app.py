@@ -59,7 +59,7 @@ def converter(valor: float, origem: str, destino: str) -> float:
 st.set_page_config(page_title="Conversor de Temperatura", page_icon="🌡️", layout="centered")
 
 st.title("🌡️ Conversor de Temperatura")
-st.caption("Uma única página • botões-lista para origem e destino • validação de zero absoluto")
+st.caption("")
 
 # Entrada do valor e casas decimais
 valor = st.number_input("Valor da temperatura", value=25.0, step=0.1, format="%.4f")
