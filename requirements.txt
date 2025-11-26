@@ -1,4 +1,3 @@
 streamlit
 pytest
 coverage
-"pip install -r requirements.txt"
